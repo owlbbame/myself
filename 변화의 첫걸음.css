@@ -1,3 +1,50 @@
 .absimg{
   position:relative;
 }
+h1{
+  text-align:center;
+  font-size:65px;
+}
+
+#contents{
+  font-size:30px;
+}
+
+#inputbox{
+  height:30px;
+  width:200px;
+  padding-right:20px;
+  margin-bottom:10px;
+}
+
+#memo{
+font-size:30px;
+margin-bottom:10px;
+margin-top: 10px;
+margin-left: 100px;
+color:green;
+}
+
+#data{
+    font-size : 30px;
+    margin-left:50px;
+    padding-left:50px;
+}
+
+#addButton{
+  padding : 5px;
+}
+
+#first{
+  margin-right:0px;
+  margin-left: 10px;
+}
+
+#second{
+    margin-left: 64px;
+    margin-right:0px;
+}
+#third{
+  margin-left:70px;
+  margin-right:0px;
+}

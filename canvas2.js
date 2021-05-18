@@ -22,9 +22,9 @@
             currentRect.coordinates.push([x, y]);
             drawTools.clear();
             drawTools.execute(rects);
-            if (currentRect.type === 'stroke') drawTools.stroke(currentRect.coordinates, 'rgba(255, 255, 0, .3)', currentRect.lineWidth);
+            if (currentRect.type === 'stroke') drawTools.stroke(currentRect.coordinates, 'yellow', currentRect.lineWidth);
             if (currentRect.type === 'eraser') drawTools.eraser(currentRect.coordinates, currentRect.lineWidth);
-            if (currentRect.type === 'square') drawTools.square(currentRect.coordinates, 'rgba(255, 255, 0, .3)');
+            if (currentRect.type === 'square') drawTools.square(currentRect.coordinates, 'yellow');
           }
         });
         document.getElementById('canvas').addEventListener('mouseup', () => {
